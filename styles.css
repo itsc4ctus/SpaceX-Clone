@@ -1,0 +1,219 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listtext{
+    color: white;
+    font-weight: 800;
+}
+
+.listtext li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+body{
+   
+    margin: 0;
+    font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.ddiv img{
+    
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -50px;
+    
+}
+
+
+
+
+
+
+.ddiv{
+    
+   
+    height: 200px;
+    width: 200px;
+}
+.spacediv{
+    width: auto;
+    
+}
+.ldiv{
+    
+    width: 300px;
+    display: flex;
+    flex: 10;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 160px;
+    padding-left: 180px;
+}
+
+
+
+.nav-div{
+    height: 100px;
+    background: #000;
+    display: flex;
+    
+}
+.spacexlogo{
+background-color: aliceblue;
+width: 250px;
+height: 100px;
+
+}
+.ddiv:hover{
+cursor: pointer;
+}
+
+.shoptext:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+nav{
+    height: 100px;
+    width: 801px;
+    
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.shop{
+    width: 200px;
+    height: 100px;
+   
+    
+}
+.logo{
+    height: 50%;
+    width: 50%;
+}
+.part1 img{
+width: 100%;
+height: 730px;
+
+
+}
+
+.part1{
+    margin: 0;
+    
+    height: 730px;
+   position: relative;
+}
+
+
+.maindiv{
+    display: block;
+
+}
+.detcard{
+    position: absolute;
+    height: 176px;
+    width: 520px;
+    
+  z-index: 1;
+  top: 383px;
+  left: 100px;
+ 
+
+
+}
+
+.title1{
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 500;
+    margin: 0px;
+    color: white;
+}
+.desc1{
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    margin: 0px;
+    color: white;
+}
+
+.button1{
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500px;
+}
+
+.button1:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+footer{
+    height: 80px;
+    background-color: black;
+   align-content: center;
+   display: flex;
+   justify-content: center;
+}
+.footdiv{
+    width: 300px;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.footdiv h4{
+margin: 0px;
+color: white;
+font-size: 12px;
+line-height: 24px;
+font-weight: 250px;
+}
+.footdiv h4:hover{
+    opacity: 0.8;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    
+}
+.shoptext{
+    font-weight: 800;
+    color: white;
+}
+
+.menuicon i{
+    color: white;
+}
+.menuicon i:hover{
+    cursor: pointer;
+}
